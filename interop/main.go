@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/http3"
-	"github.com/marten-seemann/webtransport-go"
+	"github.com/webtransport/quic-go/http3"
+	"github.com/webtransport/webtransport-go"
 )
 
 //go:embed index.html

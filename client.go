@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lucas-clemente/quic-go"
-	"github.com/lucas-clemente/quic-go/http3"
-	"github.com/lucas-clemente/quic-go/quicvarint"
+	"github.com/webtransport/quic-go"
+	"github.com/webtransport/quic-go/http3"
+	"github.com/webtransport/quic-go/quicvarint"
 )
 
 type Dialer struct {

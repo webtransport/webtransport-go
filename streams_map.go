@@ -3,7 +3,7 @@ package webtransport
 import (
 	"sync"
 
-	"github.com/lucas-clemente/quic-go"
+	"github.com/webtransport/quic-go"
 )
 
 type closeFunc func()
